@@ -22,4 +22,4 @@ git config --global user.email "${USER_EMAIL}"
 git add .
 git commit -m "Deploy to gh-pages"
 
-git push --force --quiet "https://${GITHUB_TOKEN}@github.com/vkbansal/react-contextmenu.git" master:gh-pages > /dev/null 2>&1
+git push --force "https://${GITHUB_TOKEN}@github.com/Means88/react-contextmenu.git" master:gh-pages
